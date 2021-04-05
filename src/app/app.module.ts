@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SplashPageComponent } from './pages/splash-page/splash-page.component';
+import { MainMenuComponent } from './pages/main-menu/main-menu.component';
+import { ItemsPageComponent } from './pages/items-page/items-page.component';
+import { ItemPageComponent } from './pages/item-page/item-page.component';
+import { CartPageComponent } from './pages/cart-page/cart-page.component';
+import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SplashPageComponent,
+    MainMenuComponent,
+    ItemsPageComponent,
+    ItemPageComponent,
+    CartPageComponent,
+    CheckoutPageComponent
   ],
   imports: [
     BrowserModule,
