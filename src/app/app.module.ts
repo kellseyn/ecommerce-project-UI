@@ -9,6 +9,7 @@ import { ItemsPageComponent } from './pages/items-page/items-page.component';
 import { ItemPageComponent } from './pages/item-page/item-page.component';
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.compo
     ItemsPageComponent,
     ItemPageComponent,
     CartPageComponent,
-    CheckoutPageComponent
+    CheckoutPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

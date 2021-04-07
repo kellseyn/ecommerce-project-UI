@@ -8,7 +8,7 @@ import { MainMenuComponent } from './pages/main-menu/main-menu.component';
 import { SplashPageComponent } from './pages/splash-page/splash-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },
+  { path: '', redirectTo: 'splash', pathMatch: 'full' },
   {path: 'splash', component:SplashPageComponent},
   {path: 'main', component:MainMenuComponent},
   {path: 'items', component:ItemsPageComponent},
