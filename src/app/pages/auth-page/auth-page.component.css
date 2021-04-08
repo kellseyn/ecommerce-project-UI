@@ -1,0 +1,10 @@
+.auth{
+    background: rgb(255,182,0);
+    background: -moz-linear-gradient(180deg, rgba(255,182,0,1) 0%, rgba(144,230,25,1) 50%, rgba(0,130,177,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,182,0,1) 0%, rgba(144,230,25,1) 50%, rgba(0,130,177,1) 100%);
+    background: linear-gradient(180deg, rgba(255,182,0,1) 0%, rgba(144,230,25,1) 50%, rgba(0,130,177,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffb600",endColorstr="#0082b1",GradientType=1);
+    height: 100vh;
+    width: 100%;
+    padding-top: 7%;
+}
