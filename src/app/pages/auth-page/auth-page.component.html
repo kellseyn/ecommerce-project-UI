@@ -1,4 +1,54 @@
 <div class="auth">
-    <app-signup></app-signup>
-    <app-login></app-login>
+    <div *ngIf="signupToggle" class="container">
+        <div class="column">
+            <div class="row header">
+                <h1>Signup</h1>
+            </div>
+            <div class="row input">
+                <label for="username">Username:</label>
+                <input type="text" placeholder="username">
+            </div>
+            <div class="row input">
+                <label for="email">Email: </label>
+                <input type="text" placeholder="email">
+            </div>
+            <div class="row input">
+                <label for="password">Password: </label>
+                <input type="text" placeholder="password">
+            </div>
+            <div class="row input">
+                <label for="password-valid">Re-enter password: </label>
+                <input type="text" placeholder="password-valid">
+            </div>
+            <div class="row">
+                <button routerLink="/main" class="btn btn-outline-dark mx-2 my-sm-0 login" type="button">Signup</button>
+            </div>
+            <div class="row switch">
+                <button (click)= "loginToggler()" class="btn btn-outline-primary">Login here</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div *ngIf="loginToggle" class="container">
+        <div class="column">
+            <div class="row header">
+                <h1>Login</h1>
+            </div>
+            <div class="row input">
+                <label for="username">Username:</label>
+                <input type="text" placeholder="username">
+            </div>
+            <div class="row input">
+                <label for="password">Password: </label>
+                <input type="text" placeholder="password">
+            </div>
+            <div class="row">
+                <button routerLink="/main" class="btn btn-outline-dark mx-2 my-sm-0 login" type="button">Login</button>
+            </div>
+            <div class="row switch">
+                <button (click)= "loginToggler()" class="btn btn-outline-primary">Signup here</button>
+            </div>
+        </div>
+    </div>
 </div>

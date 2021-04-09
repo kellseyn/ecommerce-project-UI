@@ -8,3 +8,44 @@
     width: 100%;
     padding-top: 7%;
 }
+.container{
+    width: 30%;
+    padding: 1%;
+    background-color:cadetblue;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+}
+.switch{
+    display: flex;
+    justify-content: flex-end;
+}
+a::before{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color: greenyellow;
+}
+input{
+    width: 50%;
+}
+@media (max-width: 768px){
+.container{
+    width: 50%;
+}
+}
+@media (max-width: 425px){
+.container{
+    width: 75%;
+}
+input{
+    width: 90%;
+}
+}

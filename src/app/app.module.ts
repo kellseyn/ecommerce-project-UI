@@ -11,8 +11,7 @@ import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AuthPageComponent } from './pages/auth-page/auth-page.component';
-import { LoginComponent } from './components/login/login.component';
-import { SignupComponent } from './components/signup/signup.component';
+
 
 @NgModule({
   declarations: [
@@ -24,9 +23,7 @@ import { SignupComponent } from './components/signup/signup.component';
     CartPageComponent,
     CheckoutPageComponent,
     NavbarComponent,
-    AuthPageComponent,
-    LoginComponent,
-    SignupComponent
+    AuthPageComponent
   ],
   imports: [
     BrowserModule,
